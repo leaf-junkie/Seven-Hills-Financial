@@ -6,32 +6,28 @@ body {
 
 header {
     width: 100%;
+    position: relative;
     font-size: 36px;
 }
 
-.logo {
-    position: relative;
+.nav-bar {
+    background-color: #fff;
 }
 
-img {
-    width: 250px;
-    height: auto;
-}
-
-.navigation-bar {
+.nav-list {
     display: flex;
+    margin-bottom: 0;
     background-color: #7E7F81;
     border-bottom: 6px solid #25315A;
     height: 50px;
 }
 
-.branding {
-    display: flex;
-    margin: 0 auto;
-    
+.logo {
+    left: 0;
+    top: 0;
+    max-width: 250px;
 }
 
-.branding,
 .nav-button {
     background-color: #7E7F81;
     color: #fff;
