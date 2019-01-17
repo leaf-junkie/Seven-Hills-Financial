@@ -12,34 +12,78 @@
         <link href="contact.html">
 
         <!-- Link to stylesheet -->
-        <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
         <!-- Fonts -->
         <!-- <style>
             @import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Ewert');
         </style> -->
     </head>
-    <body>
+    <body id="contact-background">
+
+        <!-- Header -->
         <header>
             <div class="mission">Professional Service, Personal Relationship</div>
             <div class="nav-bar">
                 <nav>
                     <ul class="nav-list">
                         <li><input class="btTxt submit logo" href="index.html" type="image" src="/assets/images/Logo/logo-cropped.jpg"/></li>
-                        <li><a class="nav-button" href="index.html">Home</a></li>
-                        <li><a class="nav-button" href="about.html">About</a></li>
-                        <li><a class="nav-button" href="services.html">Services</a></li>
-                        <li><a class="nav-button" href="segments.html">Segments</a></li>
-                        <li><a class="nav-button" href="blog.html">Blog</a></li>
-                        <li><a class="nav-button" href="contact.html">Contact</a></li>
+                        <li><a class="btn nav-button" href="index.html">Home</a></li>
+                        <li><a class="btn nav-button" href="about.html">About</a></li>
+                        <li><a class="btn nav-button" href="services.html">Services</a></li>
+                        <li><a class="btn nav-button" href="segments.html">Segments</a></li>
+                        <li><a class="btn nav-button" href="blog.html">Blog</a></li>
+                        <li><a class="btn nav-button" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <div class="container">
 
+        <!-- Main Content -->
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputName">Name</label>
+                    <input type="name" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
         </div>
+
+        <!-- Footer -->
         <footer>
             <p class="footer-text">Seven Hills Financial, LLC ©</p>
         </footer>
