@@ -54,6 +54,10 @@ header {
     text-decoration: none;
 }
 
+.jumbotron {
+
+}
+
 /* .nav-button:hover {
 
 }
@@ -88,8 +92,16 @@ header {
 /* HOME */
 
 /* ABOUT */
+.paragraph-about {
+    
+}
 
 /* SERVICES */
+/* Call to action */
+#call-to-action {
+    background-image: url();
+    color: #fff;
+}
 
 /* SEGMENTS */
 
