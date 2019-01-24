@@ -88,11 +88,15 @@ header {
 /* HOME */
 .home-header {
     background-color: #cdcecf;
+    border-radius: 25px;
+
 }
 
 .header-image {
     max-width: 50%;
     float: left;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .tagline {
@@ -103,11 +107,26 @@ header {
 }
 
 .intro-paragraph,
-.services {
+.services,
+.message {
     display: flex;
-    width: 50%;
-    float: left;
-    margin-top: 15px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.call-to-action {
+
+}
+
+.call-to-action_button {
+    background-color: #3b6390;
+    color: #fff;
+    box-shadow: 2px 4px 6px #264972;
+}
+
+.call-to-action_button:hover {
+    color: #fff;
+    box-shadow: 2px 2px 2px #264972 ;
 }
 
 /* ABOUT */
