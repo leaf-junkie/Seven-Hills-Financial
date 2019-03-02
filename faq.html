@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">    
@@ -28,7 +28,6 @@
         </style> -->
     </head>
     <body>
-
         <!-- Header -->
         <header>
             <section class="hero is-light">
@@ -75,7 +74,7 @@
                 <div class="hero-body">
                     <div class="container has-text-centered">
                     <h1 class="title">
-                        <a class="" href="index.html">Seven Hills Financial</a>
+                        <a class="is-active" href="index.html">Seven Hills Financial</a>
                     </h1>
                     <h2 class="subtitle">
                         Professional Service, Personal Relationship
@@ -91,88 +90,54 @@
                         <li><a class="" href="about.html">About</a></li>
                         <li><a class="" href="segments.html">Segments</a></li>
                         <li><a class="" href="services.html">Services</a></li>
-                        <li><a class="is-active" href="blog.html">Blog</a></li>
-                        <li><a class="" href="contact.html">Contact</a></li>
+                        <li><a class="" href="blog.html">Blog</a></li>
+                        <li><a class="is-active" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                     </nav>
                 </div>
             </section>
-        </header>
+        </header>  
+
         <div class="wrapper">
-            <!-- Main Content -->
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-full">
-                        <section class="section">
-                            <p class="title">Blog Post One</p>
-                            <p class="subtitle">Subtitle</p>
-                            <p class="content">Content</p>
-                        </section>
-                        <section class="section">
-                            <p class="title">Blog Post Two</p>
-                            <p class="subtitle">Subtitle</p>
-                            <p class="content">Content</p>
-                        </section>
-                        <section class="section">
-                            <p class="title">Blog Post Three</p>
-                            <p class="subtitle">Subtitle</p>
-                            <p class="content">Content</p>
-                        </section>
-                        <section class="section">
-                            <p class="title">Blog Post Four</p>
-                            <p class="subtitle">Subtitle</p>
-                            <p class="content">Content</p>
-                        </section>
-                    </div>
-                    <!-- <div class="column is-one-quarter">
-                        <aside id="sidebar">
-            
-                        </aside>
-                    </div> -->
-                </div>
-            </div>
-            <!-- Pagination -->
-            <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-                <a class="pagination-previous">Previous</a>
-                <a class="pagination-next">Next page</a>
-                <ul class="pagination-list">
-                    <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
-                    <li><a class="pagination-link" aria-label="Goto page 2">2</a></li>
-                    <li><a class="pagination-link" aria-label="Goto page 3">3</a></li>
-                </ul>
-            </nav>
+            <p class="title">FAQ</p>
+            <section class="section">
+                <p class="subtitle">What is a fiduciary?</p>
+            <p class="content">A fiduciary is a person who acts on behalf of another 
+                person to manage assets. It is a person or organization that owes the 
+                duties of good faith and trust to their client with the highest legal 
+                duty of one party to another, it also involves being bound ethically 
+                to act in the other's best interests.</p>
+        </section>
+        <section class="section">
+            <p class="subtitle">What is a financial plan?</p>
+            <p class="content">A financial plan is a comprehensive evaluation of 
+                someone’s current and future financial state by using currently known 
+                variables to plan for the future.</p>
+            </section>
+            <section class="section">
+                <p class="subtitle">Why consider a registered investment advisor?</p>
+            <p class="content">A registered investment advisor manages the assets of 
+                individuals and institutional investors who are registered with the SEC 
+                and the state within which they operate.</p>
+        </section>
+        <section class="section">
+            <p class="subtitle">Why choose fee based?</p>
+            <p class="content">Fee based provides transparency by showing how and what 
+                the advisor is being compensated for.</p>
+            </section>
+        <section class="section">
+            <p class="subtitle">Why are designations important?</p>
+            <p class="content">A Financial Advisor with designations has shown that 
+                they are willing to go the extra step to provide the best service to 
+                their clients.</p>
+            </section>
+            <section class="section">
+                <p class="subtitle">What can I expect as a client?</p>
+                <p class="content">At Seven Hills, we are fiduciaries. Clients are our number 
+                    one concern, we provide you with personalized and focused service that 
+                    aligns with your individual needs.</p>
+            </section>
         </div>
-        <!-- Footer -->
-        <footer>
-            <p class="footer-text">Seven Hills Financial, LLC ©</p>
-        </footer>
-                    
-        <a href="#" class="back-to-top">Back to Top</a>
-        <script>
-            jQuery(document).ready(function() {
-            var offset = 220;
-            var duration = 500;
-            jQuery(window).scroll(function() {
-            if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-            } else {
-            jQuery('.back-to-top').fadeOut(duration);
-            }
-            });
-
-            jQuery('.back-to-top').click(function(event) {
-            event.preventDefault();
-            jQuery('html, body').animate({scrollTop: 0}, duration);
-            return false;
-            })
-            });
-        </script>
-
-        <!-- Link to JavaScript -->
-        <script src="assets/javascript/script.js" type="text/javascript"></script>
-
-        <!-- Link to jQuery CDN -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     </body>
 </html>

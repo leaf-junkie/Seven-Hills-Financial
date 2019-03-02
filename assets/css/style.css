@@ -1,5 +1,5 @@
 body, html {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -23,6 +23,16 @@ header {
 
 .nav-brand:hover, .nav-item:hover {
     color: #444;
+}
+
+.hero-foot {
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    margin-top: 200px;
 }
 
 .pimg-1, .pimg-2, .pimg-3, .pimg-4 {
@@ -78,170 +88,24 @@ header {
     background-color: transparent;
 }
 
+.centered {
+    margin: 0 auto;
+}
+
+.segment {
+    margin-top: 25px;
+    width: 50vw;
+    margin: 0px auto;
+}
+
+.segment-1 {
+    margin-top: 0px;
+}
+
 footer {
     text-align: center;
-    top: 100%;
-}
-/* 
-.nav-bar {
-    background-color: #fff;
-    height: 150px;
-    box-shadow: 2px 2px #3b6390;
-    display: flex;
-}
-
-.navbar-brand,
-.navbar-brand:hover {
-    color: #3b6390;
-    font-size: 42px;
-}
-
-.nav-item {
-    color: #333;
-    font-size: 24px;
-    padding: 50px;
-}
-
-.nav-item:hover {
-    color: #7E7F81;
-}
-
-.mission {
-    position: relative;
-    left: 24%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    font-style: oblique;
-    color: #7E7F81;
-    text-align: center;
-}
-
-.jumbotron {
-    background-color: #cdcecf;
-    color: #333;
-}
-
-.container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-text {
-    background-color: #cdcecf;
-    color: #fff;
-    text-align: center;
-    width: 100%;
-    height: 75px;
-    margin: 0 auto;
-    padding: 25px;
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.home-header {
-    background-color: #cdcecf;
-    border-radius: 25px;
-}
-
-.header-image {
-    max-width: 50%;
-    float: left;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-.tagline {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique; 
-    font-size: 36px;
-    color: #7E7F81;
-}
-
-.intro-paragraph,
-.services,
-.message {
-    display: flex;
-    margin-top: 25px;
-    font-size: 20px;
-}
-
-
-.call-to-action_button {
-    background-color: #3b6390;
-    color: #fff;
-    box-shadow: 2px 4px 6px #264972;
-}
-
-.call-to-action_button:hover {
-    color: #fff;
-    box-shadow: 2px 2px 2px #264972 ;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.paragraph-about {
-    width: 60%;
-    float: left;
-    margin-right: 40px;
-}
-
-.btn-light {
-    background-color: #3b6390;
-    color: #fff;
-}
-
-.btn-light:hover {
-    background-color: #cdcecf;
-}
-
-#call-to-action {
-    color: #333;
-}
-
-#call-to-action:after {
-    background-image: url(https://kporras.files.wordpress.com/2013/08/miccosukee-greenway-4.jpg?w=2048);
-    opacity: 0.5;
-}
-
-.back-to-top {
-    display:none;
     position: fixed;
-    bottom: 2em;
-    right: 0px;
-    text-decoration: none;
-    color: #000000;
-    background-color: #cdcecf;
-    font-size: 12px;
-    padding: 1em;
 }
-
-.back-to-top:hover {    
-    background-color: #7E7F81;
-    text-decoration: none;
-    color: #fff;
-}
-
-.container-contact {
-    width: 75%;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-  }
-  
-  .container-contact::after {
-    content: "";
-    background: url(https://kporras.files.wordpress.com/2013/08/miccosukee-greenway-4.jpg?w=2048);
-    opacity: 0.4;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  } */
