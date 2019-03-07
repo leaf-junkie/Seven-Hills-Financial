@@ -14,7 +14,7 @@ header {
     z-index: 10;
     background-color: #f4f4f4;
     color: #666;
-    box-shadow: 0 1px 1px #666;
+    box-shadow: 0 1px 1px #f1f1f1;
 }
 
 .nav-brand, .nav-item {
@@ -32,7 +32,7 @@ header {
 .wrapper {
     width: 100%;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 175px;
 }
 
 .pimg-1, .pimg-2, .pimg-3, .pimg-4 {
@@ -98,11 +98,8 @@ header {
     margin: 0px auto;
 }
 
-.segment-1 {
-    margin-top: 0px;
-}
-
 footer {
+    background-color: #fff;
     text-align: center;
     bottom: 0;
     left: 0;
