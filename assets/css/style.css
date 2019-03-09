@@ -48,12 +48,17 @@ header {
     margin: 0 15px;
 }
 
+.pin-box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .icon_pin {
     color: rgb(233, 85, 74);
     position: relative;
-    margin: 0 auto;
-    margin-bottom: 0;
-    z-index: 10;
+    margin-left: 0;
+    z-index: 5;
 }
 
 .pimg-1, .pimg-2, .pimg-3, .pimg-4 {
