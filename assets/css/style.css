@@ -35,6 +35,12 @@ header {
     margin-top: 175px;
 }
 
+.button {
+    background-color: #5571cf !important;
+    color: #fff !important;
+    text-decoration-line: none !important;
+}
+
 .pimg-1, .pimg-2, .pimg-3, .pimg-4 {
     position: relative;
     opacity: 0.70;
@@ -49,17 +55,18 @@ header {
 
 .pimg-1 {
     background-image: url('../images/logo.jpg');
-    min-height: 100%;
+    min-height: 75%;
+    opacity: 1;
 }
 
 .pimg-2 {
     background-image: url('../images/Accent/road.jpeg');
-    min-height: 450px;
+    min-height: 600px;
 }
 
 .pimg-3 {
-    background-image: url('../images/Accent/handshake.jpg');
-    min-height: 450px;
+    background-image: url('../images/handshake-1.jpg');
+    min-height: 600px;
 }
 
 .section {
