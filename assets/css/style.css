@@ -45,7 +45,7 @@ header {
     background-color: #5571cf;
     color: #fff;
     border-radius: 15px;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .pin-box {
@@ -55,7 +55,7 @@ header {
 }
 
 .icon_pin {
-    color: rgb(233, 85, 74);
+    /* color: rgb(233, 85, 74); */
     position: relative;
     margin-left: 0;
     z-index: 5;
