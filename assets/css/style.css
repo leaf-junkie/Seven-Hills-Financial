@@ -33,6 +33,49 @@ header {
     text-decoration-line: none !important;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.45);
+}
+
+.overlay:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cta-textbox {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    color: white;
+    font-size: 24px;
+}
+
+.divider {
+    border-top: 2px solid #b0b9d6;
+    margin: 2% 40%;
+}
+
+/* .cta-textbox:hover {
+    color: black;
+} */
+
+/* .cta-text {
+    color: #000;
+}
+
+.cta-text:hover {
+    color: #fff;
+} */
+
+.call-to-action{
+    display: block;
+    position: relative;
+}
+
 .segment_head {
     position: relative;
     margin-bottom: -35px;
