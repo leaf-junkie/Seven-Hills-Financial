@@ -8,14 +8,14 @@
         <!-- Site Pages -->
         <link href="index.html">
         <link href="about.html">
-        <link href="services.html">
         <link href="segments.html">
+        <link href="services.html">
+        <link href="faq.html">
         <link href="blog.html">
         <link href="contact.html">
 
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
         <!-- Bulma -->
@@ -59,7 +59,7 @@
                             Documentation
                             </a>
                             <span class="navbar-item">
-                            <a class="button is-primary is-inverted">
+                            <a class="button is-link is-inverted">
                                 <span class="icon">
                                 <i class="fab fa-github"></i>
                                 </span>
@@ -76,7 +76,7 @@
                 <div class="hero-body">
                     <div class="container has-text-centered">
                         <h1 class="title"><a class="" href="index.html">Seven Hills Financial</a></h1>
-                        <h2 class="subtitle">Friendly - Familiar - Fiduciary</h2>
+                        <h2 class="subtitle">Fee-Based | Familiar | Fiduciary</h2>
                     </div>
                 </div>
                 
@@ -100,9 +100,17 @@
         <div class="wrapper" style="margin-top:250px;">
             <!-- Main Content -->
             <div class="container has-text-centered">
-                <p class="title">Our Process – Your Financial GPS</p>
-                <section class="section columns">
-
+                <p class="title">Our Process: Your Financial GPS</p>
+                <section class="section">
+                    <div id="map">
+                        <!-- <div id="map-path"></div> -->
+                        <svg>
+                            <path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>
+                        </svg>
+                        <img src="/assets/images/Accent/world-map.jpeg">
+                    </div>
+                </section>
+                <!-- <section class="section columns">
                     <div class="roadblock column">
                         <div class="pin-box">
                             <ion-icon class="icon_pin" name="pin"></ion-icon>
@@ -110,7 +118,6 @@
                         <p class="subtitle has-text-white">Where do you want to go?</p>
                         <p class="content">The first step is identifying your destination. Whether it is building your assets, growing your business, or planning for retirement, our team will empower you with the right tools to get you where you want to go.</p>
                     </div>
-
                     <div class="roadblock column">
                         <div class="pin-box">
                             <ion-icon class="icon_pin" name="pin"></ion-icon>
@@ -118,7 +125,6 @@
                         <p class="subtitle has-text-white">Where are you now?</p>
                         <p class="content">We’ve learned where you want to go, so now let’s see where you are. We can provide you with a plan that caters to your unique situation by looking at the whole to calculate your most opportune route.</p>
                     </div>
-
                     <div class="roadblock column">
                         <div class="pin-box">
                             <ion-icon class="icon_pin" name="pin"></ion-icon>
@@ -126,7 +132,6 @@
                         <p class="subtitle has-text-white">Beginning your journey</p>
                         <p class="content">Now that your plan is designed, it's time to implement it. What may seem like an overwhelming step doesn’t have to be, because we’re making this journey together.</p>
                     </div>
-
                     <div class="roadblock column">
                         <div class="pin-box">
                             <ion-icon class="icon_pin" name="pin"></ion-icon>
@@ -134,45 +139,48 @@
                         <p class="subtitle has-text-white">Keeping pace and adjusting for deviations</p>
                         <p class="content">Life doesn’t always signal to you that changes are coming your way, which is why we can and will review your route to adjust for detours and pit stops.</p>
                     </div>
-
-                </section>
+                </section> -->
             </div>
-            <div class="container">
-                <section class="section">
+            <section class="section">
+                <div class="service">
                     <p class="title">Investment Management</p>
                     <p class="subtitle">At Seven Hills, we create diversified portfolios based on your specific investment needs by using objective and well-defined strategies to alleviate some of the risks associated with investments.</p>
-                </section>
-                <section class="section">
+                    <p class="divider"></p>
+                </div>
+                <div class="service">
                     <p class="title">Trust and Estate Management</p>
                     <p class="subtitle">We understand that preparing your legacy alone is challenging. Let us guide you through the process of building a stable and continuous plan to protect and fulfill your wishes.</p>
-                </section>
-                <section class="section">
+                    <p class="divider"></p>
+                </div>
+                <div class="service">
                     <p class="title">Tax Management</p>
                     <p class="subtitle">All your financial plans will be designed with efficient tax strategies in place.</p>
-                </section>
-                <section class="section">
+                    <p class="divider"></p>
+                </div>
+                <div class="service">
                     <p class="title">Retirement Plans</p>
                     <p class="subtitle">You don’t have to take unmarked roads to get to retirement. Our financial plans are built to navigate you with clear vision and direction.</p>
-                </section>
-                <section class="section">
+                    <p class="divider"></p>
+                </div>
+                <div class="service">
                     <p class="title">College Plans</p>
                     <p class="subtitle">There are many different approaches to prepare for your child’s future, we will consider your entire financial plan when assisting you in choosing what vehicle to use.</p>
-                </section>
-                <section class="section">
+                    <p class="divider"></p>
+                </div>
+                <div class="service">
                     <p class="title">Insurance</p>
                     <p class="subtitle">Insurance can be complicated but with our advanced knowledge on the topic, we can help you make informed decisions that are best for you.</p>
-                </section>
-            </div>
+                </div>
+            </section>
 
             <!-- Call to action -->
             <section class="section has-background-light">
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <section class="section">
-                                <p class="title">A Message From Us</p>
-                                <p>We strive to provide the optimal experience in financial planning through a client-centered process: The intersection between collaborative planning, risk sensitivity, and lifestyle goals come together to create an inclusive strategy to meet your needs now and in the future.</p>
-                            </section>
+                            <p class="title">A Message From Us</p>
+                            <p>We strive to provide the optimal experience in financial planning through a client-centered process: The intersection between collaborative planning, risk sensitivity, and lifestyle goals come together to create an inclusive strategy to meet your needs now and in the future.</p>
+                            <p class="divider"></p>
                             <p>View our <a href="/assets/pdf/sevenhills_disclosure.pdf" target="_blank">disclosure</a> and <a href="/assets/pdf/sevenhills_privacy.pdf" target="_blank">privacy</a> policies.</p>
                         </div>
                         <div class="column">
