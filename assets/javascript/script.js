@@ -19,7 +19,7 @@ $(document).ready(function() {
     // sticky nav
     var nav      = $('#nav');
     var content  = $('#content');
-    var navHomeY = nav.offset().top;
+    var navHomeY = nav.offset();
     var isFixed  = false;
     var $w       = $(window);
 
@@ -51,8 +51,8 @@ $(document).ready(function() {
             });
 
             isFixed = false;
-            }
-        });
+        }
+    });
 
 // End document ready
 });
